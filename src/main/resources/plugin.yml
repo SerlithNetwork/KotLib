@@ -1,0 +1,6 @@
+name: KotLib
+version: '1.0-SNAPSHOT'
+main: net.serlith.lib.kotlib.KotLib
+api-version: '1.18'
+authors: [ Biquaternions ]
+website: https://serlith.net
