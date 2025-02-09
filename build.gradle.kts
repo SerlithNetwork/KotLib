@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "net.serlith.lib.kotlib"
-version = "1.0-SNAPSHOT"
+version = "2.1.0"
 
 repositories {
     mavenCentral()
@@ -19,9 +19,8 @@ repositories {
 dependencies {
     compileOnly("org.spigotmc:spigot-api:1.8.8-R0.1-SNAPSHOT")
 
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.1.0")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib:2.1.0")
-    implementation("org.jetbrains:annotations:26.0.1")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:$version")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:$version")
 }
 
 val targetJavaVersion = 8
